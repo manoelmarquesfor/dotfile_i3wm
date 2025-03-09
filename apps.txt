@@ -1,19 +1,29 @@
+#Basicos
 xorg
 i3-wm
 i3lock
 suckless-tools
 arandr
-firefox-esr #navegador
-git
-nitrogen #papel de parede
+slim
+
+#Navegador 
+firefox-esr 
+
+
+#Themas
+#lxappearance 
+#papirus-icon-theme
+#arc-theme 
+
+
+#Utilitarios
 rofi  #launch
-lxappearance #themas - verificar
+nitrogen #papel de parede
 thunar #file manager
 thunar-archive-plugin #plugin para mostrar o extrair e adicionar
-arc-theme 
-papirus-icon-theme
 ark #compactar e descompactar arquivo
-numlockx #ativar o numlock)
+numlockx #ativar o numlock
+
 xfce4-terminal #terminal
 xfce4-screenshooter #captura de tela
 xfce4-clipman 
@@ -21,5 +31,6 @@ xfce4-panel #painel
 xfce4-pulseaudio-plugin 
 xfce4-datetime-plugin
 xfce4-power-manager
-clipit #Verificar
-xclip #verificar
+
+#clipit 
+#xclip 
