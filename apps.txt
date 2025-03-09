@@ -7,30 +7,46 @@ arandr
 slim
 
 #Navegador 
-firefox-esr 
-
+firefox-esr
 
 #Themas
-#lxappearance 
+#lxappearance
 #papirus-icon-theme
-#arc-theme 
+#arc-theme
 
 
-#Utilitarios
-rofi  #launch
-nitrogen #papel de parede
-thunar #file manager
-thunar-archive-plugin #plugin para mostrar o extrair e adicionar
-ark #compactar e descompactar arquivo
-numlockx #ativar o numlock
+#Utilitarios#
+#Launch
+rofi
 
-xfce4-terminal #terminal
-xfce4-screenshooter #captura de tela
+#Papel de parede
+nitrogen
+
+#File Manager
+thunar
+thunar-archive-plugin
+
+#Compactar e descompactar arquivo
+ark
+
+#Ativar o numlock
+numlockx
+
+#Terminal
+xfce4-terminal
+
+#Captura de tela
+xfce4-screenshooter
+
+#Utilitario para copiar e colar
 xfce4-clipman 
-xfce4-panel #painel
+
+#Painel e plugins
+xfce4-panel
 xfce4-pulseaudio-plugin 
 xfce4-datetime-plugin
 xfce4-power-manager
+
 
 #clipit 
 #xclip 
