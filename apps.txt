@@ -6,6 +6,12 @@ suckless-tools
 arandr
 slim
 
+#Network
+network-manager-gnome
+network-manager-openvpn-gnome
+openvpn
+samba
+
 #Navegador 
 firefox-esr
 
