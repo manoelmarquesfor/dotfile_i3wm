@@ -1,0 +1,7 @@
+
+#Lista de apps flatpak
+
+org.remmina.Remmina
+com.getpostman.Postman
+org.telegram.desktop
+com.discordapp.Discord
