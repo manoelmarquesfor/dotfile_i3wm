@@ -8,6 +8,7 @@ libglu1-mesa
 cmake
 ninja-build
 pkg-config
+clang
 libgtk-3-dev
 liblzma-dev
 libstdc++-12-dev
