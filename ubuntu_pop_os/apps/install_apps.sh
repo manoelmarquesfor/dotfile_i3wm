@@ -10,6 +10,9 @@ sudo apt upgrade -y
 APP_LIST="./apps/apps.txt"
 
 sudo ./apps/chave_chrome.sh
+sudo ./apps/chave_anydesk.sh
+
+sudo apt update
 
 # Instalação dos aplicativos
 while IFS= read -r line; do

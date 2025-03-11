@@ -1,7 +1,6 @@
 #!/bin/bash
 
 # Add the AnyDesk GPG key
-sudo apt update
 sudo apt install ca-certificates curl apt-transport-https
 sudo install -m 0755 -d /etc/apt/keyrings
 sudo curl -fsSL https://keys.anydesk.com/repos/DEB-GPG-KEY -o /etc/apt/keyrings/keys.anydesk.com.asc
