@@ -2,7 +2,7 @@
 
 
 # Caminho para o arquivo de aplicativos
-APP_LIST="apps_flatpak.txt"
+APP_LIST="./flatpaks/apps_flatpak.txt"
 
 # Instalação dos aplicativos
 while IFS= read -r line; do

@@ -11,10 +11,10 @@ pkg-config
 libgtk-3-dev
 liblzma-dev
 libstdc++-12-dev
-
 libc6:amd64
 libstdc++6:amd64
 lib32z1
 libbz2-1.0:amd64
-
+anydesk
 google-chrome-stable
+

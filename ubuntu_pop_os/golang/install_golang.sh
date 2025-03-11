@@ -4,9 +4,9 @@ FILE=~/Downloads/go1.*.linux-amd64.tar.gz
 
 # Loop até que o arquivo seja encontrado
 while [ ! -f $FILE ]; do
-  read -p "O arquivo do Flutter já foi baixado? (s/n): " resposta
+  read -p "O arquivo do Golang já foi baixado? (s/n): " resposta
   if [ "$resposta" != "s" ]; then
-    echo "Por favor, baixe o arquivo do Flutter e coloque-o na pasta de Downloads."
+    echo "Por favor, baixe o arquivo do Golang e coloque-o na pasta de Downloads."
   fi
 done
 

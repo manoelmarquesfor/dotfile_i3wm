@@ -9,6 +9,8 @@ sudo apt upgrade -y
 # Caminho para o arquivo de aplicativos
 APP_LIST="./apps/apps.txt"
 
+sudo ./apps/chave_chrome.sh
+
 # Instalação dos aplicativos
 while IFS= read -r line; do
     # Ignora linhas vazias e comentários
@@ -17,5 +19,7 @@ while IFS= read -r line; do
         
         echo "Instalando: $trimmed_line"
         sudo apt install -y "$trimmed_line"
+        else 
+            echo "Ignorando: $line"
     fi
 done < "$APP_LIST"

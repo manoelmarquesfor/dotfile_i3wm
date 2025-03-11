@@ -11,6 +11,12 @@ while [ ! -f $FILE ]; do
   fi
 done
 
+# Cria a pasta de desenvolvimento
+if [ ! -d ~/development ]; then
+  mkdir -p ~/development
+fi
+
+echo "Extraindo o arquivo do Android Studio..."
 # Extrai o arquivo
 tar -xf $FILE -C ~/development/
 
